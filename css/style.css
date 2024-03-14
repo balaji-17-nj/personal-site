@@ -1,0 +1,147 @@
+/* 
+
+COLOR PALETTE
+
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+
+*/
+/* global................................................................. */
+html , body{
+    height: 100%;
+    font-size: 65%;;
+
+}
+body{
+    background-color: #f6f6f6;
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+
+}
+h1, h2, h3{
+    font-family: 'caveat', cursive;
+}
+h1{
+    font-size: 7rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+.content-wrapper{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+/* resume....................................*/
+.resume header::before{
+    background: url(../img/bg-home-office-studio.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+.resume-section h2{
+    border-bottom: 2px rgb(139, 129, 129) dashed ;
+    
+}
+.resume-section{
+    margin-bottom: 50px;
+}
+.download-link{
+    position: fixed;
+    margin-left: 3px;
+    margin-top: 3px;
+    font-size: 2rem;
+}
+/* link..................................*/
+
+a{
+    color: #3c8453;
+}
+a:hover{
+    color: #d3d4d6;
+    text-decoration: none;
+}
+footer a{
+    color: #d3d4d6;
+
+}
+footer a:hover{
+    color: #3c8453;
+    text-decoration: none;
+}
+.btn{
+    background: #3c8453;
+    color: #f6f6f6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    letter-spacing: .1em;
+    border-radius: 5px;
+}
+
+/* home................................*/ 
+.home{
+    background-image: url(../img/bg-home-office-studio.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.home .content-wrapper{
+    
+    flex: 1 0 auto;
+    
+}
+.home .content-bg{
+    background: rgb(255 255 255 / 0.9);
+    padding: 30px;
+
+}
+/* project...................................................*/
+.project-item{
+    display: flow-root;
+    margin: 20px 0px;
+}
+.project-item img{
+    width:500px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+/* footer....................................................*/
+footer{
+    
+    background: #5d5a5a;
+    color:  #d3d4d6 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.social{
+    list-style: none;
+    padding: 0;
+}
+.social li{
+    display: inline-block;
+    padding: 5px;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+.social img:hover{
+    opacity: 0.5;
+}
